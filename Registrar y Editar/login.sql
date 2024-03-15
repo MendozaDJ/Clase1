@@ -43,7 +43,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `nombre`, `user`, `pass`, `estado`, `id_grupo_usu`, `user_activo`) VALUES
-(15, 'David', 'DAVIDM', '7e04da88cbb8cc933c7b89fbfe121cca', 0, 5, 1);
+(15, 'David', 'DAVIDM', '7e04da88cbb8cc933c7b89fbfe121cca', 0, 5, 0);
 
 -- --------------------------------------------------------
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 15-03-2024 a las 02:42:03
+-- Tiempo de generación: 22-03-2024 a las 02:20:30
 -- Versión del servidor: 8.0.17
 -- Versión de PHP: 7.3.10
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `login`
+-- Base de datos: `bdcolegio`
 --
 
 -- --------------------------------------------------------
@@ -45,7 +45,8 @@ CREATE TABLE `usuario` (
 INSERT INTO `usuario` (`id`, `nombre`, `user`, `pass`, `estado`, `id_grupo_usu`, `user_activo`) VALUES
 (15, 'David', 'DAVIDM', '7e04da88cbb8cc933c7b89fbfe121cca', 0, 5, 0),
 (205, 'Juan Manuel', 'J69', 'a94652aa97c7211ba8954dd15a3cf838', 0, 1, 1),
-(206, 'David Mendoza', 'DM', '172522ec1028ab781d9dfd17eaca4427', 0, 2, 1);
+(206, 'David Mendoza', 'DM', '172522ec1028ab781d9dfd17eaca4427', 0, 2, 1),
+(207, 'David J', 'DJ1', '202cb962ac59075b964b07152d234b70', 0, 3, 0);
 
 -- --------------------------------------------------------
 
@@ -73,7 +74,6 @@ INSERT INTO `usuario_grupo` (`id`, `nombre`) VALUES
 (8, 'Bibliotecario'),
 (9, 'Consejerero');
 
-
 --
 -- Índices para tablas volcadas
 --
@@ -98,7 +98,7 @@ ALTER TABLE `usuario_grupo`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=207;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=208;
 
 --
 -- AUTO_INCREMENT de la tabla `usuario_grupo`
